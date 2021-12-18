@@ -126,3 +126,7 @@ img.nav__rigth--arrowdown {
     margin-right: 13px;
     cursor: pointer;
 }
+
+.nav__rigth__box {
+    cursor: pointer;
+}
