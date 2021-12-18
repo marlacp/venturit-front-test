@@ -1,3 +1,88 @@
+@font-face {
+    font-family: 'Gilroy-extraBold';
+    src: local('Gilroy-extraBold'),
+      url('../Fonts/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'),
+      url('../Fonts/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: local('Gotham-Bold'),
+      url('../Fonts/Gotham-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: local('Gotham-Book'),
+      url('../Fonts/Gotham-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: local('Gotham-Light'),
+      url('../Fonts/Gotham-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: local('Gotham-Medium'),
+      url('../Fonts/Gotham-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GothamHTF-Book';
+    src: local('GothamHTF-Book'),
+      url('../Fonts/GothamHTF-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Black';
+    src: local('Nunito-Black'),
+      url('../Fonts/Nunito-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: local('Nunito-Bold'),
+      url('../Fonts/Nunito-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraLight';
+    src: local('Nunito-ExtraLight'),
+      url('../Fonts/Nunito-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Light';
+    src: local('Nunito-Light'),
+      url('../Fonts/Nunito-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular'),
+      url('../Fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-SemiBold';
+    src: local('Nunito-SemiBold'),
+      url('../Fonts/Nunito-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: local('regular'),
+      url('../Fonts/regular.ttf') format('truetype');
+}
+
+
 .container{
     border: 1px solid red;
     max-width: 1200px;

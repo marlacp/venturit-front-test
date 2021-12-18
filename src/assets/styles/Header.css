@@ -1,0 +1,128 @@
+.Header__container {
+    border: 1px solid red;
+    max-width: 100%;
+    height: 49px;
+    flex-wrap: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 9px 11px;
+    background: var(--white);
+}
+
+img.Header__nav__left--icon {
+    width: 100%;
+}
+
+.Header__nav__rigth {
+    display: grid;
+    grid-template-columns: auto 28px 40px 45px auto auto auto;
+    align-items: center;
+}
+
+form.nav__rigth__search {
+    display: flex;
+}
+
+input.nav__rigth--searchInput {
+    width: 289px;
+    margin-right: 204px;
+    padding: 14px 13px;
+    background: var(--gray-background);
+    border: 1px solid var(--gray-background);
+    font-family: 'Nunito-Light';
+    font-size: var(--sm);
+}
+
+
+.nav__rigth__box--icon {
+    color: var(--gray-primary);
+    margin-top: 18px;
+    margin-left: -230px;
+    width: 8px;
+    height: 8px;
+    border: solid 2px currentColor;
+    border-radius: 100%;
+    transform: rotate( 
+-45deg);
+}
+
+.nav__rigth__box--icon:before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 3px;
+    height: 5px;
+    width: 2px;
+    background-color: currentColor;
+}
+
+input.nav__rigth--searchInput:active {
+    border: none;
+    outline: none;
+}
+
+input.nav__rigth--searchInput:focus {
+    border: none;
+    outline: none;
+}
+
+a.nav__rigth_button--add {
+    font-family: 'Gotham-Medium';
+    font-size: var(--ssm);
+    border: 1px solid var(--blue-primary);
+    color: var(--white);
+    background: var(--blue-primary);
+    padding: 14px 16px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    margin-left: -88px;
+    cursor: pointer;
+}
+
+.nav__rigth_notifCont {
+    margin-right: 74px;
+    margin-top: 6px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav__rigth_notifCont div {
+    width: 13px;
+    height: 13px;
+    background-color: var(--blue-secondary);
+    border-radius: 50%;
+    font-size: var( --sm);
+    font-weight: bold;
+    position: absolute;
+    top: 9px;
+    right: -29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.nav__rigth--chat {
+    margin-right: 57px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+a.nav__rigth--name {
+    text-decoration: none;
+    font-family: 'Nunito-Regular';
+    font-size: var(--md);
+    margin-right: 21px;
+    color: var(--blue-dark);
+    cursor: unset;
+}
+
+img.nav__rigth--perfil {
+    margin-left: -9px;
+    margin-right: 11px;
+}
+
+img.nav__rigth--arrowdown {
+    margin-left: 5px;
+    margin-right: 13px;
+    cursor: pointer;
+}
