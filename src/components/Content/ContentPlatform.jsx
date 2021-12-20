@@ -14,10 +14,17 @@ import followers from '../../assets/static/IMG/ic-followers.png';
 import events from '../../assets/static/IMG/ic-events.png';
 import confirm_back from '../../assets/static/IMG/Oval + Oval + Oval Mask.png';
 import assignments from '../../assets/static/IMG/ic-assignments.png';
-//test
+//slide
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
-export const ContentPlatform = () => {
+//progress
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import CircularProgress, {
+  circularProgressClasses,
+} from '@mui/material/CircularProgress';
+
+export const ContentPlatform = (props) => {
 
     const acordeon = (tap) =>{
         if(act === tap){
@@ -30,6 +37,8 @@ export const ContentPlatform = () => {
     
 
     const [act, setAct] =useState();
+
+
     //   const properties = {
     //     duration: 5000,
     //     transitionDuration: 500,
@@ -160,6 +169,62 @@ export const ContentPlatform = () => {
         {/* PROGRESSS************************************************** */}
         <div className='conteiner_Platform__progress'>
             <div className='progress__overview'>
+                <h1 className='progress__overview--title'>Progress overview</h1>
+
+                <div className='progress__overview_circle'>
+                    <Box sx={{ position: 'relative' }}>
+                    <CircularProgress
+                        variant="determinate"
+                        sx={{
+                        color: (theme) =>
+                            theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
+                        }}
+                        size={130}
+                        thickness={4}
+                        {...props}
+                        value={100}
+                    />
+                    <CircularProgress
+                        variant="determinate"
+                        disableShrink
+                        value={40}
+                        sx={{
+                        color: (theme) => (theme.palette.mode === 'light' ? '#FED200' : '#FED200'),
+                        animationDuration: '550ms',
+                        position: 'absolute',
+                        left: 0,
+                        [`& .${circularProgressClasses.circle}`]: {
+                            strokeLinecap: 'round',
+                        },
+                        }}
+                        size={130}
+                        thickness={4}
+                        {...props}
+                    />
+                    </Box>
+
+                    <h1 className='progress__overview_circle--porcent'>40%</h1>
+                </div>
+
+                <div className='progress__overview_card'>
+
+                        <div className='progress__overview_card__complete'>
+                            <div className='progress__overview_card__completeT'>
+                                <div></div>
+                                <h1> Completed</h1>
+                            </div>
+                            <h1 className='progress__overview_card__complete--number'>20 <span>hours</span></h1>
+                        </div>
+
+                        <div className='progress__overview_card__left'>
+                            <div className='progress__overview_card__left_title'>
+                                <div></div>
+                                <h1>Left to go</h1>
+                            </div>
+                            <h1 className='progress__overview_card__left--number'>30 <span>hours</span></h1>
+                        </div>
+
+                </div>
 
             </div>
             <div className='progress__cards'>
@@ -173,17 +238,17 @@ export const ContentPlatform = () => {
                     <div className='progress__cards2__cont1'>
 
                         <div className='progress__cards2__cont1_webinars'>
-                            <h1 className='progress__cards2__cont1_webinars--title'>Total Webinars</h1>
+                            <h1 className='progress__cards2__cont1_webinars--title'>Total <br/> Webinars</h1>
                             <h1 className='progress__cards2__cont1_webinars--number'> 9 </h1>
                         </div>
 
                         <div className='progress__cards2__cont1_pending'>
-                            <h1 className='progress__cards2__cont1_pending--title'>Pending Assignments</h1>
+                            <h1 className='progress__cards2__cont1_pending--title'>Pending <br/> Assignments</h1>
                             <h1 className='progress__cards2__cont1_pending--number'> 0 </h1>
                         </div>
 
                         <div className='progress__cards2__cont1_tunits'>
-                            <h1 className='progress__cards2__cont1_tunits--title'>Total Units</h1>
+                            <h1 className='progress__cards2__cont1_tunits--title'>Total <br/> Units</h1>
                             <h1 className='progress__cards2__cont1_tunits--number'> 5 </h1>
                         </div>
                     </div>
