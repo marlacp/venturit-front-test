@@ -11,6 +11,11 @@ nav.Container__Platform__SideNav {
     text-align: center;
 }
 
-.Side_Navbar_home {
+.Side_Navbar_home.selected {
     background: var(--blue-select);
+    cursor: pointer;
+}
+.Side_Navbar_home.notSelected {
+    background: var(--blue-primary);
+    cursor: pointer;
 }
