@@ -4,19 +4,20 @@ body {
 
   :root {
     --white: #FFFFFF;
-    --blue-dark: #274871;
+    --blue-dark: #192452;
+    --blue-title: #103460;
     --blue-rank: #1A2D7D;
     --yellow-rank: #FED200;
     --orange-rank: #FF794F;
     --blue-primary: #3D84FF;
     --blue-secondary: #1884FF;
+    --blue-select: #005DFF;
     --gray-background: #F5F5FB;
     --gray-lines: #E8E8EE;
-    /* --gray-primary: #A4A2BC; */
-    --gray-primary: #9C9AB5; 
-    /* --gray-primary: #A19FB9; */
+    --gray-primary: #9D9BB6; 
     --ssm: 12px;
     --sm: 14px;
     --md: 16px;
-    --lg: 18px;
+    --lg: 24px;
+    --lg2: 28px;
   }

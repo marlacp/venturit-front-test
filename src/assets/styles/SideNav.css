@@ -1,0 +1,16 @@
+nav.Container__Platform__SideNav {
+    background-color: var(--blue-primary);
+}
+
+
+.Side_Navbar_Hamburguer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 0px;
+    text-align: center;
+}
+
+.Side_Navbar_home {
+    background: var(--blue-select);
+}

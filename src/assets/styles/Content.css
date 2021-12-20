@@ -1,0 +1,14 @@
+p.carousel-status {
+  display: none;
+}
+
+.Container__Platform {
+  display: grid;
+  grid-template-columns: 4% 96%;
+}
+
+.Container__Platform__Conten {
+  background: var(--gray-background);
+  -webkit-box-shadow: 0px 36px 22px -25px rgb(0 0 0 / 5%) inset;
+  -moz-box-shadow: -1px 25px 51px -25px rgba(0,0,0,0.63) inset;
+}
