@@ -232,7 +232,7 @@ h1.Platform__events_today--title:before {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
+    width: 93%;
 }
 
 h1.Platform__events_today--title span {
@@ -351,8 +351,8 @@ h1.Platform__activity__head--title span {
     padding: 10px 0px;
     -webkit-border-radius: 5px 5px 5px 5px;
     position: relative;
-    /* quitar este margin  */
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
+    cursor: pointer;
 }
 
 .Platform__activity__1_intro div,

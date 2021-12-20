@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Logo_usa from '../../assets/static/IMG/Screen Shot 2020-09-24 at 3.34.23 PM.png';
 import background_dash from '../../assets/static/IMG/Headers/header-4.png';
 import man_dash from '../../assets/static/IMG/Group 9.png';
@@ -12,6 +12,7 @@ import arrow_r from '../../assets/static/IMG/icons8-derecha-32.png';
 import arrow_r2 from '../../assets/static/IMG/Arrow---Right-2 - Iconly---Bold.png';
 import followers from '../../assets/static/IMG/ic-followers.png';
 import events from '../../assets/static/IMG/ic-events.png';
+import confirm_back from '../../assets/static/IMG/Oval + Oval + Oval Mask.png';
 import assignments from '../../assets/static/IMG/ic-assignments.png';
 //test
 import 'react-slideshow-image/dist/styles.css';
@@ -156,8 +157,64 @@ export const ContentPlatform = () => {
                 </div>
             </div>
         </div>
+        {/* PROGRESSS************************************************** */}
+        <div className='conteiner_Platform__progress'>
+            <div className='progress__overview'>
 
-        <div className='onteiner_Platform__progress'>
+            </div>
+            <div className='progress__cards'>
+                <div className='progress__cards1'>
+                    <h1 className='progress__cards1--title'>
+                        <span>Progress</span>
+                    </h1>
+                </div>
+
+                <div className='progress__cards2'>
+                    <div className='progress__cards2__cont1'>
+
+                        <div className='progress__cards2__cont1_webinars'>
+                            <h1 className='progress__cards2__cont1_webinars--title'>Total Webinars</h1>
+                            <h1 className='progress__cards2__cont1_webinars--number'> 9 </h1>
+                        </div>
+
+                        <div className='progress__cards2__cont1_pending'>
+                            <h1 className='progress__cards2__cont1_pending--title'>Pending Assignments</h1>
+                            <h1 className='progress__cards2__cont1_pending--number'> 0 </h1>
+                        </div>
+
+                        <div className='progress__cards2__cont1_tunits'>
+                            <h1 className='progress__cards2__cont1_tunits--title'>Total Units</h1>
+                            <h1 className='progress__cards2__cont1_tunits--number'> 5 </h1>
+                        </div>
+                    </div>
+
+                    <div className='progress__cards2__cont2'>
+
+                        <div className='progress__cards2__cont2_readings'>
+                            <h1 className='progress__cards2__cont2_readings--title'>Total Readings</h1>
+                            <h1 className='progress__cards2__cont2_readings--number'> 14 </h1>
+                        </div>
+
+                        <div className='progress__cards2__cont2_videos'>
+                            <h1 className='progress__cards2__cont2_videos--title'>Total Videos</h1>
+                            <h1 className='progress__cards2__cont2_videos--number'> 5 </h1>
+                        </div>
+
+                        <div className='cont1_empty'>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div className='progress__cards3'>
+                    <img className='progress__cards3--img' src={confirm_back} alt="" />
+                    <h1 className='progress__cards3--text'>Confirm your account details <span>Please confirm your email and phone number.</span></h1>
+
+                </div>
+
+            </div>
 
         </div>
 
