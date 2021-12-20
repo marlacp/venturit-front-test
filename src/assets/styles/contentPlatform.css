@@ -288,9 +288,12 @@ h1.Platform__activity__head--title,
     margin: 0;
     position: relative;
     z-index: 1;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
+.progress__cards1--title{
+    margin-bottom: 30px;
+}
 .Platform__activity__head {
     display: flex;
     justify-content: space-between;
