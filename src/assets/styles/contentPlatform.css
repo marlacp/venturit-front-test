@@ -642,9 +642,9 @@ h1.progress__overview--title {
     margin-top: -43px;
 }
 
-.css-nt50a2-MuiCircularProgress-root{
+/* .css-nt50a2-MuiCircularProgress-root{
     color: var(--orange-rank) !important;
-}
+} */
 
 h1.progress__overview_circle--porcent {
     margin: 0;

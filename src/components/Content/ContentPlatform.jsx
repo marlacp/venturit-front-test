@@ -177,12 +177,13 @@ export const ContentPlatform = (props) => {
                         variant="determinate"
                         sx={{
                         color: (theme) =>
-                            theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
+                            theme.palette[theme.palette.mode === 'light' ? 200 : 800],
                         }}
                         size={130}
                         thickness={4}
                         {...props}
                         value={100}
+                        style={{'color': '#FF794F'}}
                     />
                     <CircularProgress
                         variant="determinate"
