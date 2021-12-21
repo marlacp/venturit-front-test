@@ -27,6 +27,9 @@ export const Header = () => {
                 <div className='nav__rigth_notifCont'>
                     <img className='nav__rigth_notifCont--icon' src={notification} alt="notification" />
                     <div></div>
+                    <div className='nav__rigth_notifCont--card'>
+
+                    </div>
                 </div>
                 <img className='nav__rigth--chat' src={chat} alt="chat" />
                 <a className='nav__rigth--name' href="">Clarence Russell</a>

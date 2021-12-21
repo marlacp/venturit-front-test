@@ -3,7 +3,7 @@ import {Header} from './Header/Header';
 import Content from './Content/Content';
 function App() {
   return (
-    <div>
+    <div className='begin' >
       <Header/>
       <Content/>
     </div>

@@ -5,6 +5,7 @@ p.carousel-status {
 .Container__Platform {
   display: grid;
   grid-template-columns: 4% 96%;
+  z-index: 4;
 }
 
 .Container__Platform__Conten {

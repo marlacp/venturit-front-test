@@ -223,6 +223,9 @@ export const ContentPlatform = (props) => {
                             </div>
                             <h1 className='progress__overview_card__left--number'>30 <span>hours</span></h1>
                         </div>
+                        <div className='progress_line_vertical'>
+
+                        </div>
 
                 </div>
 

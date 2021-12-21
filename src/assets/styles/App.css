@@ -83,15 +83,10 @@
 }
 
 
-/* .container{
-    border: 1px solid red;
-    max-width: 1200px;
-    flex: 1;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
+.begin {
+  position: relative;
+}
 
-} */
+.css-nt50a2-MuiCircularProgress-root{
+  color: var(--orange-rank) !important;
+}
